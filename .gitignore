@@ -1,0 +1,13 @@
+# 默认忽略的文件
+/shelf/
+/.idea/workspace.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# 忽略IntelliJ IDEA的配置目录及文件
+.idea/
+*.iml
+# 忽略LeetCode自动生成的代码/文档（根据实际需求选择）
+src/leetcode/editor/en/doc/content/
