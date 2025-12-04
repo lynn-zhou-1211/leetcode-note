@@ -28,7 +28,7 @@ class Solution {
             sum+=val;
 
             // 可以重复添加，所以不=1
-            backtracking(candidates,target,startIndex);
+            backtracking(candidates,target,i);
 
             sum-=val;
             path.remove(path.size()-1);
