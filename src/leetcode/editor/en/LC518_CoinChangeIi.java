@@ -9,6 +9,7 @@ public class LC518_CoinChangeIi {
             dp[0] = 1;
 
             // 求组合：先物品再背包，否则会重复，e.g.1+2，2+1
+            // 完全背包：正序，选过的可以重新选
             for (int coin : coins) {
                 for (int i = 1; i <= amount; i++) {
                     if (i >= coin) dp[i] += dp[i - coin];
