@@ -8,6 +8,7 @@ public class LC300_LongestIncreasingSubsequence {
         public int lengthOfLIS(int[] nums) {
             if (nums.length == 0) return 0;
             //   dp[i]: 以nums[i]结尾的最长字串
+            //   如果不知道以前一个数结尾是谁，我们就没法由已知推导未知。
             //   最后一个数字已经固定，问题变成：
             //      在这个数字之前，我能找到的最好的倒数第二个数字是谁？
             int n = nums.length;
