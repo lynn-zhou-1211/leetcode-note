@@ -47,7 +47,6 @@ public class LC647_PalindromicSubstrings {
                 }
             }
             return count;
-
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
